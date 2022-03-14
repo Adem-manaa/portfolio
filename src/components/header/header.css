@@ -42,7 +42,7 @@ header{
 }
 .me{
     margin-top: 5rem;
-        margin-left:calc(50% - 11rem) ;
+    margin-left:calc(50% - 11rem) ;
 }
 /* .me{
     background: linear-gradient(var(--color-primary), transparent);
@@ -83,4 +83,9 @@ header{
         display: none;
     }
     
+    .me-image{
+        height: 16rem;
+        width: 16rem;
+        margin-left:calc(50% - 8rem) 
+    }
 }
