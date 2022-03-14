@@ -5,8 +5,6 @@ import Nav from "./components/nav/nav.jsx"
 import About from "./components/about/About.jsx"
 import Experience from "./components/experience/experience.jsx"
 import Services from "./components/services/services.jsx"
-import Portfolio from "./components/portfolio/portfolio.jsx"
-import Testimonials from "./components/testimonials/testimonials.jsx"
 import Contact from "./components/contact/contact.jsx"
 import Footer from "./components/footer/footer.jsx"
 
