@@ -8,26 +8,9 @@ import { useEffect, useRef } from "react";
 
 const Footer = () => {
 
-  const el = useRef(null);
-
-  useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ["MANAA", "ADAM"], 
-      startDelay: 300,
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 100
-    });
-
-    // Destropying
-    return () => {
-      typed.destroy();
-    };
-  });
-
   return (
     <footer>
-      <a href="#" className='footer_logo' ref={el}> </a>
+      <a href="#" className='footer_logo' > ADAM </a>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
