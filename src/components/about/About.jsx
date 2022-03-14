@@ -32,7 +32,7 @@ const About = () => {
         <article className='about_card'>  
         <MdEmail className='about_icon'/>
           <h5>Email</h5>
-          <small>ja_manaa@esi.dz</small>
+          <small>ademan257@gmail.com</small>
         </article>
         </div>
         <p>
