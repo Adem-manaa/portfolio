@@ -37,9 +37,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://web.facebook.com/adem.manaa.es/"><BsFacebook/></a>
-        <a href="https://www.instagram.com/adam._.manaa/"><RiInstagramFill/></a>
-        <a href="https://www.linkedin.com/in/adem-manaa-4a82321bb/" target="_blank"><BsLinkedin/></a>
+        <a href="https://web.facebook.com/adem.manaa.es/" target="_blank" rel="noreferrer"><BsFacebook/></a>
+        <a href="https://www.instagram.com/adam._.manaa/" target="_blank" rel="noreferrer"><RiInstagramFill/></a>
+        <a href="https://www.linkedin.com/in/adem-manaa-4a82321bb/" target="_blank" rel="noreferrer"><BsLinkedin/></a>
       </div>
 
       <div className="footer_copyright">

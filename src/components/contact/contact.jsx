@@ -30,19 +30,19 @@ const Contact = () => {
             <MdEmail className='contact_icon'/>
             <h4>Email</h4>
             <h5>Ademan257@gmail.com</h5>
-            <a href="mailto:Ademan257@gmail.com" target='_blank'>Send a message</a><br />
+            <a href="mailto:Ademan257@gmail.com" target='_blank' rel="noreferrer">Send a message</a><br />
           </articel>
           <articel className="contact_option">
             <BsMessenger className='contact_icon'/>
             <h4>Messenger</h4>
             <h5>Adam Manaa</h5>
-            <a href="https://m.me/adem.manaa.es/" target='_blank'>Send a message</a><br />
+            <a href="https://m.me/adem.manaa.es/" target='_blank' rel="noreferrer">Send a message</a><br />
           </articel>
           <articel className="contact_option">
             <BsLinkedin className='contact_icon'/>
             <h4>LinkedIn</h4>
-            <h5>adem manaa</h5>
-            <a href="https://www.linkedin.com/in/adem-manaa-4a82321bb/" target='_blank'>Send a message</a>
+            <h5>adem manaa</h5> 
+            <a href="https://www.linkedin.com/in/adem-manaa-4a82321bb/" target='_blank' rel="noreferrer">Send a message</a>
           </articel>
         </div>
         <form ref={form} onSubmit={sendEmail}>
