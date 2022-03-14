@@ -29,8 +29,8 @@ const Contact = () => {
           <articel className="contact_option">
             <MdEmail className='contact_icon'/>
             <h4>Email</h4>
-            <h5>Ademan257@gmail.com</h5>
-            <a href="mailto:Ademan257@gmail.com" target='_blank' rel="noreferrer">Send a message</a><br />
+            <h5>ja_manaa@esi.dz</h5>
+            <a href="mailto:ja_manaa@esi.dz" target='_blank' rel="noreferrer">Send a message</a><br />
           </articel>
           <articel className="contact_option">
             <BsMessenger className='contact_icon'/>
