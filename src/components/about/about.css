@@ -13,7 +13,8 @@
 }
 
 .about_me-image{
-    object-fit: contain; 
+    height: auto;
+    /* object-fit: contain;  */
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
